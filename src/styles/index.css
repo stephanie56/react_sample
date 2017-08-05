@@ -4,16 +4,13 @@ body {
   font-family: sans-serif;
 }
 
+.App {
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .box {
-  width:400px;
-  height:400px;
+  flex: 1;
   border:2px solid black;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.red {
-  background-color: red;
 }
